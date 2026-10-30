@@ -1,5 +1,6 @@
 def replace_value(values, index, new_value):
     values[index]=new_value
+    return None
 def find_first(values, target):
     for index in range(len(values)):
         if values[index]==target:
